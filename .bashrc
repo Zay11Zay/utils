@@ -23,3 +23,7 @@ fzf_history_search() {
 bind -x '"\C-r": fzf_history_search'
 bind '"\C-f": "fzf\n"'
 export PATH=~/bin:$PATH
+
+
+# Configuring Neovim
+# git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
